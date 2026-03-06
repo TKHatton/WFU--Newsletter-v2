@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Libre Baskerville", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-wfu-gold: #9E7E38;
+  --color-wfu-gold-dark: #8E793E;
+  --color-wfu-black: #000000;
+  --color-wfu-paper: #FDFCF8;
+}
+
+@layer base {
+  body {
+    @apply bg-wfu-paper text-wfu-black font-sans;
+  }
+}
